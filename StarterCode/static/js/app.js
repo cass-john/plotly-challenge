@@ -37,7 +37,7 @@ function buildPlot(bio){
     })  
 };
 
-// //load in initial data
+//load in initial data
 function init(){
    
     d3.json("././samples.json").then((samples)=>{
